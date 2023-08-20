@@ -50,3 +50,17 @@ vagrant halt
 ```bash
 vagrant destroy
 ```
+
+## What's in it ?
+### Docker
+Docker is installed in the VM. You can check by running `docker run hello-world`
+
+### Postgresql
+Postgres is installed in the VM. By default we created a user :
+username: developper
+password: 12345
+
+### NodeJS
+Version  
+
+### Git
