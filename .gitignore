@@ -1,3 +1,5 @@
 .vagrant/
 www/*
 !www/.gitkeep
+shared_folder/*
+!shared_folder/.gitkeep
