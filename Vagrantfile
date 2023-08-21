@@ -66,6 +66,8 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
+    sudo apt install dos2unix
+    dos2unix /vagrant_scripts/provisioning.sh
 	  sudo bash /vagrant_scripts/provisioning.sh
   SHELL
 
